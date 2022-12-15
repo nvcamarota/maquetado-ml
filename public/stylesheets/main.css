@@ -1,0 +1,70 @@
+.main {
+    padding: 10px;
+    background-color: var(--colorGrisClaro);
+    margin: 0 auto;
+    width: 90%;
+}
+
+.main--title {
+    font-size: 24px;
+    color: var(--colorGrisOscuro);
+    padding: 0 15px;
+}
+
+.main__section {
+    background-color: #FFF;
+    padding: 10px;
+    margin: 15px;
+}
+
+.main__section__article {
+    margin-bottom: 10px;
+}
+
+.main__section__article__div {
+    border-top: 1px solid var(--colorGrisClaro);
+}
+
+.main__section__article img {
+    width: 100%;
+}
+
+.main__section__article:last-child {
+    margin-bottom: 0px;
+}
+
+.main__section__article i {
+    margin-top: 10px;
+    color: var(--colorVerde);
+    border-radius: 50%;
+    border: 1px solid var(--colorVerde);
+    padding: 8px;
+    text-align: center;
+}
+
+.main__section--price {
+    font-size: 18px;
+}
+
+.main__section--discount {
+    font-size: 16px;
+    color: var(--colorVerde);
+}
+
+.main__section--product {
+    font-size: 16px;
+    color: var(--colorGrisOscuro);
+    margin-top: 30px;
+    display: none;
+}
+
+/* medida para tablet */
+@media (min-width: 361px) {
+    .main__section--product {
+        display: block;
+        
+    }
+    .main__section {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+}
