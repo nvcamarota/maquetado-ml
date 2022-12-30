@@ -23,32 +23,41 @@
 
 .main__section__article__div {
     border-top: 1px solid var(--colorGrisClaro);
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .main__section__article img {
     width: 100%;
 }
 
-.main__section__article:last-child {
-    margin-bottom: 0px;
-}
-
 .main__section__article i {
-    margin-top: 10px;
+    display: block;
     color: var(--colorVerde);
     border-radius: 50%;
     border: 1px solid var(--colorVerde);
-    padding: 8px;
-    text-align: center;
+    background-color: #FFF;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
 }
 
 .main__section--price {
-    font-size: 18px;
+    font-size: 16px;
+    width: 30%;
+    padding-right: 10px;
 }
 
 .main__section--discount {
-    font-size: 16px;
+    font-size: 0.9rem;
     color: var(--colorVerde);
+    width: 70%;
 }
 
 .main__section--product {
@@ -56,6 +65,7 @@
     color: var(--colorGrisOscuro);
     margin-top: 30px;
     display: none;
+    width: 100%;
 }
 
 /* medida para tablet */
@@ -66,5 +76,21 @@
     }
     .main__section {
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+}
+
+/* medida para laptop */
+@media (min-width: 769px) {
+    .main__section {
+        display: inline-block;
+        justify-content: space-between;
+        width: 45%;
+    }
+}
+
+/* medida para desktop */
+@media (min-width: 1080px) {
+    .main__section {
+        width: 21%;
     }
 }
