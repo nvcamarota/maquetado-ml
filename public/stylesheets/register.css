@@ -1,0 +1,104 @@
+.register__main {
+    background-color: var(--colorGrisClaro);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.register__main__section {
+    width: 100%;
+    padding: 20px;
+}
+
+.register__main__section__article {
+    padding: 15px;
+}
+
+.register__main__section__article--form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.register__main__section__article--form span {
+    font-size: 12px;
+    padding: 3px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.register__main__section__article--form label {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.register__main__section__article--form input {}
+
+.register__main__section__article--form--personal-info input {
+    margin: 10px 0;
+}
+
+.register__main__section__article--form--personal-info select {
+    width: 100%;
+    padding: 3px;
+    margin: 10px 0;
+}
+
+.register__main__section__article--form--user-profile {
+    padding: 5px 0;
+}
+
+/* .register__main__section__article--form--user-profile label {
+
+} */
+
+.register__main__section__article--form--user-profile--segment {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    padding: 15px 0;
+    align-items: center;
+}
+
+/* .register__main__section__article--form--interest-category {
+    
+} */
+
+.register__main__section__article--form--interest-category--segment {
+    display: flex;
+    flex-direction: row;
+    padding: 5px 0;
+    gap: 0 8px;
+    align-items: center;
+}
+
+.register__main__section__article--form--interest-category--segment input {
+    width: 15px;
+    padding: 5px 0;
+}
+
+.register__main__section__article--form--user-info--photo {
+    padding: 5px 0;
+}
+
+.register__main__section__article--form--user-info--password {
+    padding: 5px 0;
+}
+
+.register__main__section__article--button {
+    text-align: center;
+}
+
+.form-button {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 8px 0;
+}
+
+@media (min-width: 769px) {
+    .register__main__section {
+        justify-content: space-between;
+    }
+}

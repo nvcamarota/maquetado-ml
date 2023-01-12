@@ -1,9 +1,8 @@
 .footer {
     padding: 5%;
-    border: solid 5px var(--colorGrisClaro);
     box-sizing: border-box;
-    width: 90%;
     margin: 0 auto;
+    box-sizing: border-box;
 }
 
 .footer__article {
@@ -14,11 +13,12 @@
 .footer__article i {
     color: var(--colorCeleste);
     font-size: 2em;
-    margin-top: 10%;
+    padding: 15px 0;
+    margin-top: 5%;
 }
 
 .footer--final-line {
-    margin-top: 25%;
+    margin-top: 10%;
     text-align: left;
     color: var(--colorGrisOscuro);
 }

@@ -5,14 +5,11 @@
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 10px 0;
+    box-sizing: border-box;
 }
 
 .header--logo {
-    width: 46%;
-}
-
-.header--banner {
-    width: 100%;
+    width: 45%;
 }
 
 .header--search-bar {
@@ -23,25 +20,26 @@
     align-items: center;
 }
 
-.header--search-bar p {
+.header--search-bar form {
     width: 100%;
     background-color: #FFFFFF;
     color: var(--colorGrisOscuro);
-    padding: 4px;
     border: none;
-    border-radius: 5px;
+    border-radius: 20px;
 }
 
-.header--search-bar i {
+.header--search-bar a {
+    text-decoration: none;
     position: absolute;
     right: 0;
-    padding: 1px 3px;
+    padding: 5px;
+    margin: 3px 0px;
     border: none;
     border-left: solid 1px var(--colorGrisOscuro);
     color: var(--colorGrisOscuro);
     background-color: #FFFFFF;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 .header--info {
