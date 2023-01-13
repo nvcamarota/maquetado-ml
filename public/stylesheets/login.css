@@ -22,10 +22,24 @@
     margin: 10px 0;
 }
 
+.login__main__section__article--user-info--segment {
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    padding: 5px 0 0;
+    gap: 0 8px;
+    align-items: center;
+}
+
+.login__main__section__article--user-info--segment input {
+    width: 15px;
+    padding: 5px 0;
+}
+
 .login__main__section__article--button {
     display: flex;
     justify-content: center;
-    margin: 8px 0;
+    padding: 0 0 8px;
 }
 
 /* @media (min-width: 768px) {
