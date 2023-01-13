@@ -23,6 +23,10 @@ ul {
     color: var(--colorCeleste);
 }
 
+hr {
+    margin: 15px 0;
+}
+
 button {
     padding: 8px;
     cursor: pointer;

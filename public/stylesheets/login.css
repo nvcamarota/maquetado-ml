@@ -8,6 +8,7 @@
 
 .login__main__section {
     width: 100%;
+    padding: 20px;
 }
 
 .login__main__section__article {
@@ -24,13 +25,13 @@
 .login__main__section__article--button {
     display: flex;
     justify-content: center;
+    margin: 8px 0;
 }
 
-@media (min-width: 769px) {
-    .login__main__section {
-        justify-content: space-between;
-    }
-}
+/* @media (min-width: 768px) {
 
-@media (min-width: 1080px) {
-}
+} */
+
+/* @media (min-width: 1080px) {
+
+} */
